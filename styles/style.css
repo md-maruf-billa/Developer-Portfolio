@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Common styles start hare */
+.btn-same{
+    margin-top: 10px;
+    color: white;
+    background-color:coral ;
+    padding:5px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Common styles ends hare */
+/* Header styles start hare */
+.head-contain-section{
+    margin-top: 50px;
+}
+header{
+    background:#FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    padding:0px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.section-link{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+nav a{
+    text-decoration:  none;
+    color: black;
+}
+.head-contain-section{
+    display: flex;
+}
+.head-image>img{
+    width: 100%;
+}
+nav>h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav>h3>span{
+    color: coral;
+}
+.head-contain > h4{
+    font-size: 45px;
+    color: rgb(43, 33, 33);
+}
+.head-contain > h2{
+    font-size: 85px;
+}
+.head-contain >p{
+    font-size: 18px;
+}
+.head-contain{
+    padding: 0px 50px;
+    margin: auto 0px;
+}
+/* Header styles ends hare */
+
+/* About style start hare */
+.about-container{
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    max-width: 900px;
+    margin:130px auto;
+
+}
+.ab-info > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ab-info > ul li{
+    list-style: none;
+    margin-top: 30px;
+}
+.ab-header{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.ab-description{
+    font-size: 18px;
+}
+/* About style ends hare */
+/* What i do part style start hare */
+.work-container{
+    max-width: 1180px;
+    margin:130px auto;
+}
+.work-container h3{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.work-card{
+    display: flex;
+    gap: 50px;
+}
+.work-card h4{
+    font-size: 26px;
+    margin-top: 10px;
+}
+.work-info{
+    box-shadow: 10px 10px 20px gray;
+    padding: 30px 40px;
+}
+/* What i do part style ends hare */
+/* Resume style part start hare */
+.resume-header{
+    max-width: 1180px;
+    margin-left: 40%;
+}
+.resume-container{
+    display: flex;
+    max-width: 1180px;
+    margin: 20px auto;
+}
+.resume-title{
+    font-size: 20px;
+    color: gray;
+}
+.resume-edu-info h3, 
+.resume-expre-info h3{
+    font-size: 28px; 
+}
+/* Resume style part ends hare */
